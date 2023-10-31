@@ -1,0 +1,157 @@
+@charset "UTF-8";
+
+/*Обнуляющие стили*/
+
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+:focus,
+:active {
+  outline: none;
+}
+
+a:focus,
+a:active {
+  outline: none;
+}
+
+nav,
+footer,
+header,
+aside {
+  display: block;
+}
+
+input,
+button,
+textarea {
+  font-family: 'Roboto', sans-serif;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+div {
+  transform: all 0.5s ease-in-out;
+  -o-transform: all 0.5s ease-in-out;
+  -ms-transform: all 0.5s ease-in-out;
+  -moz-transform: all 0.5s ease-in-out;
+  -webkit-transform: all 0.5s ease-in-out;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+
+button {
+  cursor: pointer;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+p{
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+}
+
+h1{
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  font-size: 54px;
+}
+
+a,
+a:visited {
+  text-decoration: none;
+}
+
+/*Остальное*/
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+@media(max-width:1076px){
+  #y-btn, #b-btn{
+    display: none;
+  }
+}
+@media(max-width:920px){
+  h1{
+    font-size: 40px;
+  }
+  p{
+    font-size: 20px;
+  }
+}
+@media(max-width:768px){
+ h1{
+    font-size: 30px;
+  }
+  p{
+    font-size: 20px;
+  } 
+  #img2{
+    display: none;
+  }
+  #h11{
+    font-size: 50px;
+  }
+  #p1{
+    font-size: 24px;
+  }
+  #btn1{
+    margin-bottom: 40px;
+  }
+  .sec-3{
+    display: none;
+  }
+}
+@media(max-width:500px){
+  #h11{
+    font-size: 40px;
+  }
+  #p1{
+    font-size: 20px;
+  }
+  .sec-6{
+    display: none;
+  }
+}
+@media(max-width:420px){
+  #h11{
+    font-size: 30px;
+  }
+  #p1{
+    font-size: 20px;
+  }
+}
+@media(max-width:420px){
+  #h11{
+    font-size: 23px;
+  }
+  #p1{
+    font-size: 16px;
+  }
+  h1{
+    font-size: 23px;
+  }
+  p{
+    font-size: 16px;
+  }
+}
